@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="creer-quiz.css">
+    <link rel="icon" type="image/x-icon" href="IMAGES/Favicon.png">
+</head>
+<body> 
+    <div class="container">
+
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i><img src="IMAGES/Favicon.png" alt=""></i>
+			<img src="IMAGES/QUIZ.png">
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="../accueil/tableau-bord.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Tableau de bord</span>
+				</a>
+			</li>
+			<li>
+				<a href="../Mes quiz/mes-quiz.html">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Mes Quiz</span>
+				</a>
+			</li>
+			<li>
+				<a href="../Resultat/resultat.html">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Résultat</span>
+				</a>
+			</li>
+			<li>
+				<a href="telecharger.html">
+					<i class='bx bxs-cloud-download' ></i>
+					<span class="text">Télécharger</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+    <section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="recherche...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">2</span>
+			</a>
+            <P class="nav-link">Amara Konaté</P>
+			<a href="#" class="profile">
+				<img src="IMAGES/ellipse-1.png">
+			</a>
+			
+            
+		</nav>
+		<!-- NAVBAR -->
+
+
+        <!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+                    <div class="container-right-bas-header">
+                        <div class="container-right-bas-header-box">
+							<div class="image"> 
+								<img src="IMAGES/image 5.png"  lightgray 50% / cover no-repeat; alt="">
+							</div>
+							<div class="text">
+								<p>Vous cherchez à enrichir votre culture générale et à tester vos connaissances 
+									tout en vous amusant? Que vous soyez passionné d'histoire, de design, d’anglais 
+									ou de développement, nous avons le quiz parfait pour vous.
+								</p>
+							</div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+
+		</main>
+		<!-- MAIN -->
+
+
+		<div class="container-right"> 
+			<div class="container-right-bas-main">
+                    <div class="container-main-left">
+                        <div class="quizz-form">
+                            <h2>Edition du Quizz</h2>
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <label for="quizz-title">Titre du Quizz :</label>
+                                    <input type="text" id="quizz-title" name="quizz-title" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="quizz-description">Description :</label>
+                                    <input type="text" id="quizz-description" name="quizz-description" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="quizz-category">Catégorie :</label>
+                                    <select id="quizz-category" name="quizz-category">
+                                        <option value="HTML & CSS">HTML & CSS</option>
+                                        <option value="QUIZZ Design">QUIZZ Design</option>
+                                        <option value="MDR Doux">MDR Doux</option>
+                                        <option value="QUIZ Historique">QUIZ Historique</option>
+                                        <option value="Base de données">Base de données</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-next">
+                                        <a href="question-quiz.html">Étape suivante </a><i class='bx bx-chevron-right'></i></i>
+                                    </button>                
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="container-main-right">
+                        <img src="IMAGES/ordinateur.png" alt="">
+                    </div>
+			</div>
+			<p>
+				<span class="footer">Copyright © 2023 IKADEV. Tout Droit Réservés. Par Le Groupe II</span>
+			</p>
+		</div>
+
+        </section>
+		
+        </div>
+    </div>
+    
+
+    <script src="menu.js"></script>
+</body>
+</html>
